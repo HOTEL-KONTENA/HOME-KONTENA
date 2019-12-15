@@ -14,85 +14,29 @@
     <b-carousel
       id="carousel-fade"
       style="text-shadow: 0px 0px 2px #000"
+      max-width="100%"
       controls
       fade
       indicators
     >
       <b-carousel-slide
-        caption="First slide"
+        caption=""
+        img-src="http://sgp1.digitaloceanspaces.com/basilhotel/kontena/images/images-0.jpeg"
+      ></b-carousel-slide>
+      <b-carousel-slide
+        caption=""
         img-src="http://sgp1.digitaloceanspaces.com/basilhotel/kontena/images/images-1.jpg"
       ></b-carousel-slide>
       <b-carousel-slide
-        caption="Second Slide"
-        img-src="http://sgp1.digitaloceanspaces.com/basilhotel/kontena/images/images-1.jpg"
+        caption=""
+        img-src="http://sgp1.digitaloceanspaces.com/basilhotel/kontena/images/images-2.jpg"
       ></b-carousel-slide>
       <b-carousel-slide
-        caption="Third Slide"
+        caption=""
         img-src="http://sgp1.digitaloceanspaces.com/basilhotel/kontena/images/images-3.jpg"
       ></b-carousel-slide>
     </b-carousel>
   </div>
-
-  <!-- <div>
-    <div class="container fill">
-      <div id="myCarousel" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="active item">
-            <div class="fill" style="background-image:url('//placehold.it/1024x700/449955/FFF');">
-              <div class="container">
-                
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="fill" style="background-image:url('//placehold.it/1024x700');">
-              <div class="container">
-                
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="fill" style="background-image:url('//placehold.it/1024x700/CC1111/FFF');">
-              <div class="container">
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="pull-center">
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        Kontena-Website
-      </h1>
-      <h2 class="subtitle">
-        My posh Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div> -->
 </template>
 
 <script>

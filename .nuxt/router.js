@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _43fcd220 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _4a67b8c8 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 Vue.use(Router)
 
@@ -16,7 +16,7 @@ export const routerOptions = {
 
   routes: [{
     path: "/",
-    component: _43fcd220,
+    component: _4a67b8c8,
     name: "index"
   }],
 
