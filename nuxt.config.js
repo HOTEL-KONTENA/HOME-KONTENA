@@ -40,7 +40,30 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    '@nuxtjs/apollo',
   ],
+  apollo: {
+    // optional
+    // errorHandler (error) {
+    //   console.log('%cError', 'background: red; color: white; padding: 2px 4px; border-radius: 3px; font-weight: bold;', error.message)
+    // },
+    watchLoading: '~/plugins/apollo-watch-loading-handler.js',
+    errorHandler: '~/plugins/apollo-error-handler.js',
+
+    // required
+    clientConfigs: {
+      default: {
+        // httpEndpoint: 'http://localhost:9500/graphql',
+        // httpEndpoint: 'http://128.199.145.173:9888/graphql',
+        httpEndpoint: 'https://enginev1.hotelkontena.com/graphql',
+        // http://192.168.1.12:9500/
+        tokenName: 'apollo-token', // optional
+        loadingKey: 'loading',
+        persisting: false, // Optional
+        websocketsOnly: false // Optional
+      }
+    }
+  },
   /*
   ** Build configuration
   */
